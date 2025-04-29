@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FastKicks – Ténis com Estilo!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+
+    .produto {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .produto img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .produto h3 {
+      margin: 10px 0 5px;
+    }
+
+    .botao {
+      background: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    section#contacto {
+      background: #eee;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      margin: 40px 0 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>FastKicks</h1>
+  <p>Os ténis mais rápidos e estilosos do mercado</p>
+</header>
+
+<div class="container">
+
+  <h2>Modelos em Destaque</h2>
+  <div class="produtos">
+    <div class="produto">
+      <img src="https://via.placeholder.com/300x200?text=Ténis+1" alt="Ténis 1">
+      <h3>Runner Pro</h3>
+      <p>Design moderno e leveza total</p>
+      <a href="#contacto" class="botao">Comprar agora</a>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/300x200?text=Ténis+2" alt="Ténis 2">
+      <h3>Street Style</h3>
+      <p>Conforto e atitude para o dia a dia</p>
+      <a href="#contacto" class="botao">Comprar agora</a>
+    </div>
+  </div>
+
+  <section id="contacto">
+    <h2>Fazer Encomenda</h2>
+    <form>
+      <label>Nome</label>
+      <input type="text" placeholder="O teu nome" required>
+      <label>Email</label>
+      <input type="email" placeholder="teu@email.com" required>
+      <label>Mensagem</label>
+      <textarea rows="4" placeholder="Quero encomendar o modelo Street Style tamanho 42"></textarea>
+      <button type="submit">Enviar Pedido</button>
+    </form>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 FastKicks. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
